@@ -1,0 +1,1 @@
+{"version":1,"defects":{"App\\Tests\\CalculatorTest::testAdd":5,"App\\Tests\\CalculatorTest::testSub":5,"App\\Tests\\CalculatorTest::testSum":5},"times":{"App\\Tests\\CalculatorTest::testAdd":0.003,"App\\Tests\\CalculatorTest::testSub":0,"App\\Tests\\CalculatorTest::testSum":0}}
