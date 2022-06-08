@@ -7,7 +7,7 @@ use PHPUnit\Framework\TestCase;
  * CalculatorTest
  * @group calculator
  */
-class CalculatorTest extends TestCase
+class CalculateTest extends TestCase
 {
     /** @test */
     public function testAdd()
