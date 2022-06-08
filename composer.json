@@ -1,6 +1,6 @@
 {
-    "name": "user/php-test",
-    "description": "test",
+    "name": "paulchen/php-test",
+    "description": "stable",
     "type": "project",
     "require-dev": {
         "phpunit/phpunit": "9.5.20"
@@ -8,15 +8,9 @@
     "license": "proprietary",
     "autoload": {
         "psr-4": {
-            "User\\PhpTest\\": "src/"
+            "Paulchen\\PhpTest\\": "src/"
         }
     },
-    "authors": [
-        {
-            "name": "PaulChen",
-            "email": "81601297+YCChen914@users.noreply.github.com"
-        }
-    ],
     "minimum-stability": "stable",
     "require": {}
 }
