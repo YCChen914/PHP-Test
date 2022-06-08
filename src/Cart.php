@@ -67,9 +67,10 @@ class Cart
             $this->total += $product['subtotal'];
         }
     }
-
+    // @codeCoverageIgnoreStart
     public function __sleep()
     {
         return ['products', 'total'];
     }
+    // @codeCoverageIgnoreEnd
 }
