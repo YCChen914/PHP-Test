@@ -31,5 +31,8 @@ class CartTest extends TestCase
         $products = $cart->getProducts();
         $this->assertEquals(6, count($products));
         $this->assertEquals(2, $products[3]['quantity']);
+        
+         // Test 4
+        $this->assertEquals(['products', 'total'], $cart->__sleep());
     }
 }
